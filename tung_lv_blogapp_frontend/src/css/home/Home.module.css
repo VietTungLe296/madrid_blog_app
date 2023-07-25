@@ -1,0 +1,17 @@
+.home-container {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 2.5rem;
+	padding: 1rem 0;
+}
+
+.create-post-btn {
+	margin-bottom: 1rem;
+	margin-left: 0.5rem;
+}
+
+.pagination {
+	text-align: center;
+	margin: 2rem auto;
+}
+

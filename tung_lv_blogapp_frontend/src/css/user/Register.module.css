@@ -1,0 +1,83 @@
+.register-wrapper {
+	background-image: url(/public/assets/background.jpeg);
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.register-container {
+	position: relative;
+	width: 650px;
+	height: 500px;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	backdrop-filter: blur(15px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.register-title {
+	font-style: italic;
+	font-size: 3em;
+	font-family: 'Courier New', Courier, monospace;
+	color: cornsilk;
+	text-align: center;
+}
+
+.input-box {
+	position: relative;
+	margin: 30px 0;
+	width: 550px;
+}
+
+.input-box input {
+	width: 100%;
+	height: 20px;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 1em;
+	padding: 0 20px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+.input-box label{
+	font-size: 0.9rem !important;
+	color: rgb(3, 42, 3) !important;
+}
+
+.register-btn {
+	width: 40%;
+	height: 40px;
+	border-radius: 40px;
+	background: rgb(84, 84, 212);
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 1em;
+	font-weight: 600;
+	color: bisque;
+}
+
+.error-message {
+	text-align: start;
+}
+
+.login-link {
+	font-style: italic;
+	color: cornsilk;
+}
+
+.login-link:hover {
+	color: rgb(54, 101, 124);
+}

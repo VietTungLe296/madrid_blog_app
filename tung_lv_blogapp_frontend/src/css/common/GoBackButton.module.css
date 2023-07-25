@@ -1,0 +1,7 @@
+.goback-btn {
+	text-decoration: none;
+	position: fixed;
+	top: 10rem;
+	left: 3rem;
+	z-index: 1;
+}

@@ -1,0 +1,21 @@
+.newpost-container {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.newpost-title {
+	margin-bottom: 1rem;
+	text-align: center;
+	color: steelblue;
+	font-size: 2.5rem;
+}
+
+.footer {
+	text-align: center;
+	width: 100%;
+}
+
+.submit-btn {
+	text-align: center;
+	margin-right: 2.5rem;
+}

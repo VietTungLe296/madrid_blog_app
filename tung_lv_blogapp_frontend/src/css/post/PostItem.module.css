@@ -1,0 +1,54 @@
+.postItem-container {
+  margin: 2rem 0.5rem;
+}
+
+.postItem-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.postItem-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.postItem-title {
+  margin: 0.5rem 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.postItem-content {
+  position: relative;
+  max-height: 48px;
+  overflow: hidden;
+  font-size: 0.8rem;
+  flex: 1;
+}
+
+.postItem-wrapper footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.postItem-thumbnail {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.postItem-author {
+  margin-bottom: 0.8rem;
+}
+
+.postItem-author p {
+  font-size: 0.6rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+} 

@@ -1,0 +1,19 @@
+.action-btn {
+	width: 150px;
+	color: white;
+}
+
+.action-btn:hover {
+	color: white !important;
+}
+
+.edit-btn {
+    background-color: cornflowerblue;
+}
+.delete-btn {
+	background-color: red;
+}
+
+.export-btn {
+	background-color: green;
+}
